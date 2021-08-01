@@ -1,0 +1,7 @@
+version: "3.9"
+services:
+  test:
+    image: "example-project"
+    volumes:
+      - .:/app
+    command: python3 -m pytest
