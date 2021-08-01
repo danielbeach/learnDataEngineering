@@ -13,3 +13,6 @@ You will learn ...
 - Regex
 - Window Functions
 - and more.
+
+Run `docker build --tag=example-project .` to build Docker image.
+Run `docker-compose up test` to run tests.
